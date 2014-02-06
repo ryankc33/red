@@ -1103,7 +1103,7 @@ meta.foundation-mq-topbar {
         line-height: 33px;
         padding: 0;
         padding-right: 25px;
-        color: white;
+        color: #333;
         position: relative; }
         .top-bar .toggle-topbar.menu-icon a::after {
           content: "";
