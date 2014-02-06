@@ -1,9 +1,6 @@
-Prototype Website for RED with Foundation 5
+# Prototype Website for RED with Foundation 5
 
-All js and css files in /assets/ folder
+1. js and css files in ../assets/ folder
+2. html files in ../views/ folder
 
-All html files in /views/ folder
-
-Foundation.css modified.
-
-Live site at redproto.herokuapp.com
+[Live Site](redproto.herokuapp.com)
