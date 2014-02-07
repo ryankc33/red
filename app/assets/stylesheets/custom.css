@@ -30,7 +30,6 @@ p.copyright {
 	border-bottom: #dddddd 1px solid;
 	-webkit-box-shadow: 0 2px 4px 0 rgba(0,0,0,.15);
 	box-shadow: 0 2px 4px 0 rgba(0,0,0,.15);
-	padding-right: 1em;
 }
 
 .top-bar-section ul {
@@ -39,5 +38,9 @@ p.copyright {
 
 .divider {
 	border-right: solid 1px #fff !important;
+}
+
+.contribute-button {
+	margin-right: 1em;
 }
 

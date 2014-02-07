@@ -12,13 +12,36 @@
 
 <body>
 	
-	<%= render 'layouts/topbar' %>
-
-	<div class="main-hero">
-	<%= yield %>
-	</div>
+	<div class="off-canvas-wrap">
+		<div class="inner-wrap">
 	
-	<%= render 'layouts/footer' %>
+		<%= render 'layouts/topbar' %>
+		
+		<!-- Off Canvas Menu -->
+		<aside class="left-off-canvas-menu">
+			<ul class="off-canvas-list">
+				<li><a href="#">Home</a></li>
+				<li><a href="#">Downloads</a></li>
+				<li><a href="#">Documentation</a></li>
+				<li><a href="#">News</a></li>
+				<li><a href="#">Community</a></li>
+				<li><a href="#">Roadmap</a></li>
+				<li><a href="#">About Red</a></li>
+				<li><a href="#">Donate</a></li>
+				<li><a href="https://github.com/red/red/issues">Contribute</a></li>
+		  	</ul>
+		</aside>
+
+		<div class="main-hero">
+		<%= yield %>
+		</div>
+	
+		<%= render 'layouts/footer' %>
+	
+		<!-- close the off-canvas menu -->
+		<a class="exit-off-canvas"></a>
+		</div>
+	</div>
 
     <%= javascript_include_tag "application" %>
 	<script>
