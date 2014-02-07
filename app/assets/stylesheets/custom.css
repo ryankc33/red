@@ -23,13 +23,14 @@ p.copyright {
 } 
 
 .gap {
-	padding-bottom: 2em;
+	padding-bottom: 3em;
 }
 
 .top-bar {
 	border-bottom: #dddddd 1px solid;
 	-webkit-box-shadow: 0 2px 4px 0 rgba(0,0,0,.15);
 	box-shadow: 0 2px 4px 0 rgba(0,0,0,.15);
+	padding-bottom: 1px !important;
 }
 
 .top-bar-section ul {
