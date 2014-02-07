@@ -13,3 +13,5 @@
 //= require jquery.js
 //= require_tree .
 
+$(document).foundation();
+
