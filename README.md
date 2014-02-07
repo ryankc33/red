@@ -18,7 +18,7 @@ This design concept underlines that promise by stripping away extraneous element
 The design prototype is created with Ruby on rails 4 for expediency. To ease future porting to Quartermaster (or any other REBOL framework) the following methods are used:
 
 1. Use of Partials is limited to topbar, page content, and footer.
-2. Use of Rails helper methods is limited to image_tags for the logo.
+2. Use of Rails helper methods is limited to image_tags for the logo and asset includes.
 3. Foundation.css instead of scss.
 4. Customization of foundation design elements is kept to a minimum. 
 
